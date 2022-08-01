@@ -1,5 +1,5 @@
 # Learning-PEfile-package
-
+python"""
 import pefile
 pe = pefile.PE("C:\Windows\System32\kernel32.dll")
 
@@ -55,7 +55,7 @@ for section in pe.sections:
     print("\tVirtual Address: " + hex(section.VirtualAddress))
     print("\tVirtual Size: " + hex(section.Misc_VirtualSize))
     print("\tRaw Size: " + hex(section.SizeOfRawData))
-
+"""
 
 
 
